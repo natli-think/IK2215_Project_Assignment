@@ -1,0 +1,49 @@
+$TTL	604800
+@	IN	SOA	ns.isp111.lab. root.isp111.lab. (
+			      1		; Serial
+			 604800		; Refresh
+			  86400		; Retry
+			2419200		; Expire
+			 604800 )	; Negative Cache TTL
+;
+
+@		                  IN	  NS	  ns.isp111.lab.
+11.1.in-addr.arpa.		  IN	  NS	  ns.isp11.lab.
+12.1.in-addr.arpa.		  IN	  NS	  ns.isp12.lab.
+2.1.111.1.in-addr.arpa.	  IN      PTR     ns.isp111.lab.
+4.1.111.1.in-addr.arpa.	  IN      PTR     www.isp111.lab.
+3.1.111.1.in-addr.arpa.   IN      PTR     dhcp.isp111.lab.
+
+5.0.0.1.in-addr.arpa.     IN      PTR     r1eth0.isp111.lab.
+0.0.111.1.in-addr.arpa.   IN      PTR     r1eth1.isp111.lab.
+2.0.111.1.in-addr.arpa.   IN      PTR     r1eth2.isp111.lab.
+4.0.111.1.in-addr.arpa.   IN      PTR     r1eth3.isp111.lab.
+1.6.111.1.in-addr.arpa.  IN      PTR     r1dum.isp111.lab.
+1.0.21.2.in-addr.arpa.    IN      PTR     r2eth0.isp111.lab.
+1.0.111.1.in-addr.arpa.   IN      PTR     r2eth1.isp111.lab.
+7.0.111.1.in-addr.arpa.   IN      PTR     r2eth2.isp111.lab.
+2.6.111.1.in-addr.arpa.  IN      PTR     r2dum.isp111.lab.
+1.1.111.1.in-addr.arpa.   IN      PTR     r3eth0.isp111.lab.
+8.0.111.1.in-addr.arpa.   IN      PTR     r3eth1.isp111.lab.
+6.0.111.1.in-addr.arpa.   IN      PTR     r3eth2.isp111.lab.
+5.0.111.1.in-addr.arpa.   IN      PTR     r3eth3.isp111.lab.
+3.6.111.1.in-addr.arpa.  IN      PTR     r3dum.isp111.lab.
+3.5.111.1.in-addr.arpa.   IN      PTR     r4eth0.isp111.lab.
+9.0.111.1.in-addr.arpa.   IN      PTR     r4eth1.isp111.lab.
+3.0.111.1.in-addr.arpa.   IN      PTR     r4eth2.isp111.lab.
+4.6.111.1.in-addr.arpa.  IN      PTR     r4dum.isp111.lab.
+
+10.7.107.1.in-addr.arpa.   IN	  PTR	  client10.isp107.lab.
+11.7.107.1.in-addr.arpa.   IN	  PTR	  client11.isp107.lab.
+12.7.107.1.in-addr.arpa.   IN	  PTR	  client12.isp107.lab.
+13.7.107.1.in-addr.arpa.   IN	  PTR	  client13.isp107.lab.
+14.7.107.1.in-addr.arpa.   IN	  PTR	  client14.isp107.lab.
+15.7.107.1.in-addr.arpa.   IN	  PTR	  client15.isp107.lab.
+16.7.107.1.in-addr.arpa.   IN	  PTR	  client16.isp107.lab.
+17.7.107.1.in-addr.arpa.   IN	  PTR	  client17.isp107.lab.
+18.7.107.1.in-addr.arpa.   IN	  PTR	  client18.isp107.lab.
+19.7.107.1.in-addr.arpa.   IN	  PTR	  client19.isp107.lab.
+20.7.107.1.in-addr.arpa.   IN	  PTR	  client20.isp107.lab.
+
+107.1.in-addr.arpa.		  IN	  NS	  ns.isp107.lab.
+
